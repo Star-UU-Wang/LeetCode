@@ -23,13 +23,6 @@ class Solution:
         nums1[m:] = nums2
         nums1.sort()
 
-# S1 套接后排序
-class Solution:
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-        
-        nums1[m:] = nums2
-        nums1.sort()
-
 # 指针 -> 两个非递减数组
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
